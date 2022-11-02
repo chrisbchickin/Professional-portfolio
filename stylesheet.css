@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: relative;
+    height: 200px;
+    position: relative;
+}
+body{
+    display: inline-block;
+    background-color: lightskyblue;
+    width: 100%;
+}
+.nav-list {
+    display: flex;
+    flex-direction: inline;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+.cool-title {
+    height: 200px;
+    border: 5px solid black;
+}
+
+.about-me {
+    height: 200px;
+    border: 5px solid black;
+    margin: 10px;
+}
+.nav-list li {
+    margin: 5px;
+}
+.name {
+    font-size: 80px;
+    position: absolute;
+    top: 30px;
+    left: 160px;
+}
+.avatar {
+    width: 140px;
+    height: 190px;
+}
+.work-section {
+    display: flex;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.app-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+
+}
+
+.app-list li {
+    border: 5px solid black;
+    position: relative;
+}
+
+.app-image {
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    border: 5px solid black;
+}
+.app-title {
+    position: absolute;
+    color: red;
+    top: 30px;
+    left: 30px;
+    font-size: large;
+    color: black;
+    background-color: lightskyblue;
+    
+}
+
+.resume {
+    height: 200px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.contact {
+    height: 200px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
