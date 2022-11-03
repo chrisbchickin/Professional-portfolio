@@ -13,6 +13,9 @@ https://developer.mozilla.org/en-US/
 ## Screenshot
 screencapture-file-C-Users-chrsb-ssh-bootcamp-Professional-portfolio-index-html-2022-11-03-17_14_39.png
 
+## Deployment
+https://chrisbchickin.github.io/Professional-portfolio/
+
 ## License 
 Copyright (c) 2012-2022 Scott Chacon and others
 
