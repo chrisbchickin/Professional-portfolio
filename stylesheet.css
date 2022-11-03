@@ -1,97 +1,167 @@
-* {
-    box-sizing: border-box;
-}
 header {
     display: flex;
+    flex-direction: row;
     background-color: black;
     width: 100%;
     color: white;
-    position: relative;
-    height: 200px;
-    position: relative;
+    height: 250px;
 }
 body{
-    display: inline-block;
-    background-color: lightskyblue;
-    width: 100%;
-}
-.nav-list {
     display: flex;
-    flex-direction: inline;
-    color: white;
-    position: absolute;
-    right: 10px;
-}
-.cool-title {
-    height: 200px;
-    border: 5px solid black;
+    flex-direction: column;
+    background-color: lightskyblue;
 }
 
-.about-me {
-    height: 200px;
-    border: 5px solid black;
-    margin: 10px;
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    right: 10px;
 }
 .nav-list li {
     margin: 5px;
 }
+header section {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end; 
+    justify-content: space-between;
+}
+.cool-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 5px solid black;
+    background-color: darkblue;
+    color: white;
+    font-size: 70px;
+}
+
+.about-me {
+    height: 200px;
+    display: flex;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: darkblue;
+    flex-direction: column;
+    align-items: center;
+}
+.about-me h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.about-me p {
+    font-size: 20px;
+    color: white;
+}
+
 .name {
     font-size: 80px;
-    position: absolute;
     top: 30px;
-    left: 160px;
 }
 .avatar {
     width: 140px;
-    height: 190px;
+    height: 230px;
 }
 .work-section {
     display: flex;
-    height: 300px;
+    height: 900px;
     border: 5px solid black;
     margin: 10px;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 60px;
+    color: white;
 }
+.application-1 {
+    font-size: 20px; 
+}
+.fpcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-project {
+    width: 200px;
+    height: 300px;
+}
+
 
 .app-list {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     height: 200px;
     margin: auto;
-
 }
 
 .app-list li {
-    border: 5px solid black;
-    position: relative;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .app-image {
     width: 80%;
     height: 80%;
-    margin: 20px;
     border: 5px solid black;
 }
+
+.app-image:hover {
+    width: 90%;
+    height: 90%;
+}
+
 .app-title {
-    position: absolute;
-    color: red;
+    color: white;
     top: 30px;
     left: 30px;
-    font-size: large;
-    color: black;
-    background-color: lightskyblue;
+    font-size: 20px;
+    background-color: darkblue;
     
 }
 
 .resume {
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
     border: 5px solid black;
     margin: 10px;
+    background-color: darkblue; 
+    font-size: 50px;
 }
 
 .contact {
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
     border: 5px solid black;
     margin: 10px;
+    color: white;
+    background-color: darkblue;
+}
+@media screen and (max-width: 900px) {
+    .name {
+        font-size: 50px;
+    }
+    .cool-title {
+        font-size: 50px;
+    }
+    .app-title {
+        font-size: 15px;
+    }
 }
 
